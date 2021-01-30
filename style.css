@@ -35,3 +35,69 @@ button:hover {
     justify-content: space-evenly;
     align-items: center;
 }
+
+/* positioning for Small Business cream box and text */
+
+.cream-box-border {
+    display: flex;
+    justify-content: center;
+}
+
+.cream-box {
+    width: 70%;
+    background-color:#F2F1EC;
+}
+
+.small-business {
+    width: 40%;
+}
+
+/* positioning for Go Green box and text */
+
+.green-box-border {
+    display: flex;
+    justify-content: center;
+}
+
+.green-box {
+    width: 90%;
+    background-color: #025158;
+}
+
+.go-green {
+    width: 60%;
+}
+
+/* positioning for light yellow People love us box and text */
+
+.ltyellow-box-border {
+    display: flex;
+    justify-content: center;
+}
+
+.ltyellow-box {
+    width: 75%;
+    background-color: #FEDFAA;
+}
+
+.people-love {
+    width: 75%;
+}
+
+/* positioning for Subscribe to our newsletter */
+
+.subscribe-border {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe {
+    width: 75%;
+}
+
+/* positioning for footer */
+
+.footer {
+    background: #f2f1ec;
+    height: 100px;
+}
