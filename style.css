@@ -1,32 +1,63 @@
+/* MAIN NAV BAR */
+
 .header {
     background: #f2f1ec;
-    height: 100px;
+    height: 115px;
 }
 
-body {
-    margin: 0px;
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
     background-color: #fdbf55;
-    height: 65px;
-    width: 160px;
+    height: 60px;
+    width: 140px;
+    border-radius: 10px;
+    border: none;
+    font-family: Nunito sans;
+    font-weight: bold;
+    font-size: 1em;
+    color: #343430;
 }
 
 button:hover {
     background-color: #f4db82;
+    height: 60px;
+    width: 140px;
+    border-radius: 10px;
+    border: none;
+    font-family: Nunito sans;
+    font-weight: bold;
+    font-size: 1em;
+    color: #343430;
   }
 
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 100%;
 }
 
 .navItem {
     display: flex;
     justify-content: space-around;
     width: 400px;
+    font-family: Nunito sans;
+    font-weight: bold;
+    color: #025158;
+    font-size: 1em;
+}
+
+a {
+    font-family: Nunito sans;
+    text-decoration: none;
+    color: #025158;
+    font-weight: bold;
+    font-size: 1em;
 }
 
 .navRetailers {
@@ -36,68 +67,12 @@ button:hover {
     align-items: center;
 }
 
-/* positioning for Small Business cream box and text */
-
-.cream-box-border {
-    display: flex;
-    justify-content: center;
+body {
+    margin: 0px;
 }
 
-.cream-box {
-    width: 70%;
-    background-color:#F2F1EC;
-}
+/* RETAILER PAGE */
 
-.small-business {
-    width: 40%;
-}
+/* CONFIRM PAGE */
 
-/* positioning for Go Green box and text */
-
-.green-box-border {
-    display: flex;
-    justify-content: center;
-}
-
-.green-box {
-    width: 90%;
-    background-color: #025158;
-}
-
-.go-green {
-    width: 60%;
-}
-
-/* positioning for light yellow People love us box and text */
-
-.ltyellow-box-border {
-    display: flex;
-    justify-content: center;
-}
-
-.ltyellow-box {
-    width: 75%;
-    background-color: #FEDFAA;
-}
-
-.people-love {
-    width: 75%;
-}
-
-/* positioning for Subscribe to our newsletter */
-
-.subscribe-border {
-    display: flex;
-    justify-content: center;
-}
-
-.subscribe {
-    width: 75%;
-}
-
-/* positioning for footer */
-
-.footer {
-    background: #f2f1ec;
-    height: 100px;
-}
+/* FOOTER */
